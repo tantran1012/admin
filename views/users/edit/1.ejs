@@ -1,0 +1,95 @@
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Chỉnh sửa thành viên</h6>
+    </div>
+    <div class="card-body">
+        <div class="form-group row">
+            <p class="col-sm-2 col-form-label">Ảnh đại diện</p>
+            <div class="col-sm-5">
+                <img class="img-fluid" style="width: 10rem;" src="images/avatar-1.png" alt="">
+                <input type="file" name="myImage" accept="image/*" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="nameUser" class="col-sm-2 col-form-label">Họ và tên</label>
+            <div class="col-sm-5">
+                <input type="text" name="name" id="nameUser" class="form-control" placeholder="" value="Trần Minh Tân">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="birthday" class="col-sm-2 col-form-label">Ngày sinh</label>
+            <div class="col-sm-5">
+                <input type="date" name="birth" id="birthday" class="form-control" placeholder="" value="1999-01-10">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Giới tính</label>
+            <div class="col-sm-5">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="sex" id="male" value="option1" checked>
+                    <label class="form-check-label" for="male">Nam</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="sex" id="female" value="option2">
+                    <label class="form-check-label" for="female">Nữ</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="Address" class="col-sm-2 col-form-label">Địa chỉ</label>
+            <div class="col-sm-5">
+                <input type="text" name="address" id="Address" class="form-control" placeholder=""
+                    value="TP Hồ Chí Minh">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="Email" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-5">
+                <input type="email" name="email" id="Email" class="form-control" placeholder=""
+                    value="minh7411@gmail.com">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="phone" class="col-sm-2 col-form-label">Số điện thoại</label>
+            <div class="col-sm-5">
+                <input type="number" name="number" id="phone" class="form-control" placeholder="" value="0978244683">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="accout" class="col-sm-2 col-form-label">Tài khoản</label>
+            <div class="col-sm-5">
+                <input type="text" name="acc" id="accout" class="form-control" placeholder="" value="admin">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="password" class="col-sm-2 col-form-label">Mật khẩu</label>
+            <div class="col-sm-5">
+                <input type="password" name="pass" id="password" class="form-control" placeholder="" value="123456">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="chucvu" class="col-sm-2 col-form-label">Chức vụ</label>
+            <div class="col-sm-5">
+                <select class="form-control">
+                    <option checked>Quản trị viên</option>
+                    <option>Điều hành viên</option>
+                    <option>Nhân viên Marketing</option>
+                    <option>kế toán</option>
+                    <option>Thành viên</option>
+                    <option>Bla bla.....</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-7">
+            <div class="row justify-content-end">
+                <div class="my-2"></div>
+                <a href="#" class="btn btn-success btn-icon-split">
+                    <span class="icon text-white-50">
+                        <i class="fas fa-check"></i>
+                    </span>
+                    <span class="text">Lưu thay đổi</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= title %></title>
+	<% include ./incl/header %>
+</head>
+<body>
+	<body id="page-top">
+		<!-- Page Wrapper -->
+		<div id="wrapper">
+			<% include ./incl/sidebar %>
+			<!-- Content Wrapper -->
+			<div id="content-wrapper" class="d-flex flex-column">
+				<!-- Main Content -->
+				<div id="content">
+					<% include ./incl/topbar %>
+					<!-- Begin Page Content -->
+					<div class="container-fluid">
+						<% include ./category/index.ejs %>
+					</div>
+					<!-- /.container-fluid -->
+				</div>
+				<!-- End of Main Content -->
+				<% include ./incl/footer %>
+			</div>
+			<!-- End of Content Wrapper -->
+		</div>
+		<!-- End of Page Wrapper -->
+		<% include ./incl/scrlo %>
+	</body>
+
+</html>
